@@ -36,10 +36,13 @@ text-decoration: none;
 list-style: none;
 }
 .footer > .logo {
-  color: var(--Light);
+  color: var(--Primary-Brand);
 }
-.web {
+.studio {
   color: var(--Dark);
+}
+.studio-footer{
+  color: var(--Light)
 }
 .main-menu{
   list-style: none;
@@ -131,7 +134,6 @@ color: var(--Pressed-state);
   line-height: 1.07;
   letter-spacing: 1.12px;
   color: var(--White-background);
-  text-align: center;
 }
 .our-approach-title {
   color: var(--White-background)
@@ -143,7 +145,7 @@ color: var(--Pressed-state);
   letter-spacing: 0.4px;
 }
 .our-projects {
-  background: var(--Light);
+  background: var(--White-background);
 }
 .our-projects-title{
   font-size: 36px;
@@ -152,5 +154,14 @@ color: var(--Pressed-state);
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  text-align: center;
+}
+.our-team{
+  background-color: var(--Light);
+}
+.our-team-title {
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.72px;
+text-transform: capitalize;
 }

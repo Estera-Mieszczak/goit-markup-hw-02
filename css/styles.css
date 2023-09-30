@@ -135,7 +135,7 @@ color: var(--Pressed-state);
   letter-spacing: 1.12px;
   color: var(--White-background);
 }
-.our-approach-title {
+.hidden-title {
   color: var(--White-background)
 }
 .text-head{

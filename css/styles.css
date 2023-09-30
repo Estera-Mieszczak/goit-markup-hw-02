@@ -3,7 +3,8 @@ body {
   font-size: 16px;
   letter-spacing: 0.32px;
   line-height: 1.5;
-  color: var(--Dark);
+  color: var(--Text);
+  background-color: var(--White-background);
 }
 :root {
   --Dark: #2e2f42;
@@ -20,20 +21,20 @@ body {
   --Modal background: #FCFCFC;
 }
 .logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  color: var(--Primary-Brand);
   text-decoration: none;
-  color: var(--Dark);
 }
 .footer > .logo {
 color: var(--Light);
 }
 .web {
-  color: var(--Primary-Brand);
+  color: var(--Dark);
 }
 .main-menu a {
   color: var(--Dark);
@@ -41,6 +42,9 @@ color: var(--Light);
   line-height: 1.5;
   text-decoration: none;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+ul {
+  list-style: none;
 }
 .contact a {
     font-style: normal;
@@ -63,10 +67,6 @@ color: var(--Light);
     border-radius: 4px;
     border: 1px solid var(--Accent);
     background: var(--Light);
-    display: flex;
-    padding: 12px 24px;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
 }
 .filters-list button:hover {
@@ -87,10 +87,6 @@ color: var(--Light);
     border-radius: 4px;
     border: inherit;
     background: var(--Primary-Brand);
-    display: flex;
-    padding: 12px 24px;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
 }
 .footer {
@@ -104,28 +100,28 @@ color: var(--Light);
   background-color: var(--Dark);
 }
 .main-banner-title {
-font-size: 56px;
-font-weight: 700;
-line-height: 1.07;
-letter-spacing: 1.12px;
-color: var(--White-background);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  color: var(--White-background);
 }
 .our-approach-title {
   color: var(--White-background)
 }
 .text-head{
   font-size: 20px;
-font-weight: 500;
-line-height: 1.2
-letter-spacing: 0.4px;
+  font-weight: 500;
+  line-height: 1.2
+  letter-spacing: 0.4px;
 }
 .our-projects {
   background: var(--Light);
 }
 .our-projects-title{
   font-size: 36px;
-font-weight: 700;
-line-height: 1.1
-letter-spacing: 0.72px;
-text-transform: capitalize;
+  font-weight: 700;
+  line-height: 1.1
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }

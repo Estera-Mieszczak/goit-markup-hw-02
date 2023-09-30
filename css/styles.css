@@ -64,16 +64,18 @@ color: var(--Pressed-state);
 .main-menu-link:active {
 color: var(--Pressed-state);
 }
-.contact a {
-    font-style: normal;
-    color: var(--Text)
-    letter-spacing: 0.32px;
-    text-decoration: none;
+.contact {
+  font-style: normal;
 }
-.contact a:hover {
+.contact-link {
+    font-style: normal;
+    color: var(--Text);
+    letter-spacing: 0.32px;
+}
+.contact-link:hover {
   color: var(--Pressed-state);
 }
-.contact a:focus {
+.contact-link:focus {
   color: var(--Pressed-state);
 }
 .filters-list button {
@@ -136,18 +138,22 @@ color: var(--Pressed-state);
   color: var(--White-background);
 }
 .hidden-title {
-  color: var(--White-background)
+  color: var(--Dark)
 }
 .text-head{
+  color: var(--Dark)
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
+.text {
+  font-size: 16px;
+}
 .our-projects {
   background: var(--White-background);
 }
-.our-projects-title{
+.our-projects-title {
   font-size: 36px;
   font-weight: 700;
   color: var(--Dark);
@@ -155,13 +161,17 @@ color: var(--Pressed-state);
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-.our-team{
+.our-team {
   background-color: var(--Light);
 }
 .our-team-title {
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11;
-letter-spacing: 0.72px;
-text-transform: capitalize;
+  color: var(--Dark);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.teammate {
+  background-color: var(--White-background);
 }

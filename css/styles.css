@@ -20,9 +20,6 @@ body {
   --White-background: #ffffff;
   --Modal background: #FCFCFC;
 }
-.link{
-text-decoration: none;
-}
 .logo {
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -31,6 +28,12 @@ text-decoration: none;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: var(--Primary-Brand);
+}
+.link{
+text-decoration: none;
+}
+.list{
+list-style: none;
 }
 .footer > .logo {
   color: var(--Light);
@@ -47,11 +50,16 @@ text-decoration: none;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.main-menu-link:hover {
+color: var(--Pressed-state);
+}
+.main-menu-link:focus {
+color: var(--Pressed-state);
+}
 .main-menu-link:active {
-color: var(--Pressed-state)
+color: var(--Pressed-state);
 }
 .contact a {
     font-style: normal;
@@ -60,41 +68,52 @@ color: var(--Pressed-state)
     text-decoration: none;
 }
 .contact a:hover {
-  color: var(--Pressed-state)
+  color: var(--Pressed-state);
 }
 .contact a:focus {
-  color: var(--Pressed-state)
+  color: var(--Pressed-state);
 }
 .filters-list button {
     color: var(--Pressed-state);
     font-family: inherit;
     font-size: inherit;
     font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.64px;
     border-radius: 4px;
     border: 1px solid var(--Accent);
-    background: var(--Light);
+    background-color: var(--Light);
     cursor: pointer;
 }
 .filters-list button:hover {
     color: var(--White-background);
-    background: var(--Pressed-state);
+    background-color: var(--Pressed-state);
     box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.12);
 } 
 .filters-list button:focus {
     color: var(--White-background);
-    background: var(--Pressed-state);
+    background-color: var(--Pressed-state);
 } 
 .button {
     color: var(--White-background);
     font-family: inherit;
     font-size: inherit;
     font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.64px;
     border-radius: 4px;
     border: inherit;
-    background: var(--Primary-Brand);
+    background-color: var(--Primary-Brand);
     cursor: pointer;
+}
+.button:hover{
+  background-color: var(--Pressed-state);
+}
+.button:focus{
+  background-color: var(--Pressed-state);
+}
+.button:active{
+  background-color: var(--Pressed-state);
 }
 .footer {
   background-color: var(--Dark);
@@ -112,6 +131,7 @@ color: var(--Pressed-state)
   line-height: 1.07;
   letter-spacing: 1.12px;
   color: var(--White-background);
+  text-align: center;
 }
 .our-approach-title {
   color: var(--White-background)
@@ -128,7 +148,9 @@ color: var(--Pressed-state)
 .our-projects-title{
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  color: var(--Dark);
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
 }

@@ -85,7 +85,6 @@ color: var(--Pressed-state);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-    border-radius: 4px;
     border: 1px solid var(--Accent);
     background-color: var(--Light);
     cursor: pointer;
@@ -93,7 +92,6 @@ color: var(--Pressed-state);
 .filters-list button:hover {
     color: var(--White-background);
     background-color: var(--Pressed-state);
-    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.12);
 } 
 .filters-list button:focus {
     color: var(--White-background);
@@ -106,8 +104,6 @@ color: var(--Pressed-state);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-    border-radius: 4px;
-    border: inherit;
     background-color: var(--Primary-Brand);
     cursor: pointer;
 }
@@ -133,12 +129,19 @@ color: var(--Pressed-state);
 .main-banner-title {
   font-size: 56px;
   font-weight: 700;
+  text-align: center;
   line-height: 1.07;
   letter-spacing: 1.12px;
   color: var(--White-background);
 }
 .hidden-title {
-  color: var(--Dark)
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--Dark);
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 .text-head{
   color: var(--Dark)
@@ -156,6 +159,7 @@ color: var(--Pressed-state);
 .our-projects-title {
   font-size: 36px;
   font-weight: 700;
+  text-align: center;
   color: var(--Dark);
   line-height: 1.11;
   letter-spacing: 0.72px;
@@ -167,6 +171,7 @@ color: var(--Pressed-state);
 .our-team-title {
   color: var(--Dark);
   font-size: 36px;
+  text-align: center;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;

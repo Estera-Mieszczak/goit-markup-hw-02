@@ -144,7 +144,7 @@ color: var(--Pressed-state);
   text-transform: capitalize;
 }
 .text-head{
-  color: var(--Dark)
+  color: var(--Dark);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
